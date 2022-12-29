@@ -1,8 +1,12 @@
 # currency-calculator
 
 ## Technologies used to create this site:
+- HTML
+- CSS
+- BEM
+- JavaScript
 
 
-## DEMO 
+## Demo:
 
 https://dorotaaa34.github.io/currency_calculator/

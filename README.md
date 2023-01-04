@@ -2,9 +2,9 @@
 
 # Instruction:
 
-Select one of two available currencies. 
-Provide value that you want to count from.
-Click the button convert.
+1. Select one of two available currencies. 
+2. Provide value that you want to count from.
+3. Click the button convert.
 
 ## Technologies used to create this site:
 - HTML

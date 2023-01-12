@@ -14,6 +14,8 @@
   const updateResultText = (currency, result, amount) => {
     const resultElement = document.querySelector(".js-result");
     resultElement.innerText = result.toFixed(2);
+    const currencyElement = document.querySelector(".js-currency");
+    const amountElement = document.querySelector(".js-amount");
   };
 
   const onFormSubmit = (event) => {

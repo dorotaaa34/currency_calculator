@@ -11,11 +11,9 @@
     }
   };
 
-  const updateResultText = (currency, result, amount) => {
+  const updateResultText = (result) => {
     const resultElement = document.querySelector(".js-result");
-    resultElement.innerText = result.toFixed(2);
-    const currencyElement = document.querySelector(".js-currency");
-    const amountElement = document.querySelector(".js-amount");
+    resultElement.innerText = result.toFixed(2); 
   };
 
   const onFormSubmit = (event) => {

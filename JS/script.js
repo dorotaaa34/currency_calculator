@@ -13,7 +13,7 @@
 
   const updateResultText = (result) => {
     const resultElement = document.querySelector(".js-result");
-    resultElement.innerText = result.toFixed(2); 
+    resultElement.innerText = +result.toFixed(2); 
   };
 
   const onFormSubmit = (event) => {
@@ -26,7 +26,7 @@
     const amount = amountElement.value;
     const result = calculateResult(amount, currency);
 
-    updateResultText(currency, result, amount);
+    updateResultText(result);
   };
 
   const init = () => {

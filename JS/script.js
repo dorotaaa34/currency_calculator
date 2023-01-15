@@ -13,7 +13,7 @@
 
   const updateResultText = (result) => {
     const resultElement = document.querySelector(".js-result");
-    resultElement.innerText = +result.toFixed(2); 
+    resultElement.innerText = +result.toFixed(2);
   };
 
   const onFormSubmit = (event) => {
